@@ -1,0 +1,71 @@
+﻿生成启动时间为 2014/11/19 18:45:52。
+     1>项目“D:\CrossApp\projects\CrossShop\proj.win32\CrossShop.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\CrossApp\projects\CrossShop\proj.win32\..\..\..\CrossApp /ID:\CrossApp\projects\CrossShop\proj.win32\..\..\..\CrossApp\kazmath\include /ID:\CrossApp\projects\CrossShop\proj.win32\..\..\..\CrossApp\platform\win32 /ID:\CrossApp\projects\CrossShop\proj.win32\..\..\..\CrossApp\platform\third_party\win32 /ID:\CrossApp\projects\CrossShop\proj.win32\..\..\..\CrossApp\platform\third_party\win32\pthread /ID:\CrossApp\projects\CrossShop\proj.win32\..\..\..\CrossApp\platform\third_party\win32\OGLES /ID:\CrossApp\projects\CrossShop\proj.win32\..\..\..\CrossApp\platform\third_party\win32\freetype /ID:\CrossApp\projects\CrossShop\proj.win32\..\..\..\external /ID:\CrossApp\projects\CrossShop\proj.win32\..\..\..\CocosDenshion\include /ID:\CrossApp\projects\CrossShop\proj.win32\..\..\..\extensions /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\IndexViewController.cpp
+         IndexViewController.cpp
+     1>d:\crossapp\crossapp\dispatcher\catouch.h(20): warning C4305: “参数”: 从“unsigned int”到“float”截断
+     1>d:\crossapp\crossapp\dispatcher\catouch.h(21): warning C4305: “参数”: 从“unsigned int”到“float”截断
+     1>d:\crossapp\crossapp\dispatcher\catouch.h(22): warning C4305: “参数”: 从“unsigned int”到“float”截断
+     1>d:\crossapp\crossapp\basics\cacalendar.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\control\casegmentedcontrol.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\control\caslider.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\support\ccutf8.h(213): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\crossapp\crossapp\control\capagecontrol.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\control\castepper.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\controller\caviewcontroller.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\view\capageview.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\view\capulltorefreshview.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\view\caactivityindicatorview.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\controller\caviewcontroller.h(34): warning C4275: 非 dll 接口 class“CrossApp::CAViewDelegate”用作 dll 接口 class“CrossApp::CAViewController”的基
+                 d:\crossapp\crossapp\view\caview.h(498) : 参见“CrossApp::CAViewDelegate”的声明
+                 d:\crossapp\crossapp\controller\caviewcontroller.h(32) : 参见“CrossApp::CAViewController”的声明
+     1>d:\crossapp\crossapp\controller\caviewcontroller.h(211): warning C4275: 非 dll 接口 class“CrossApp::CAScrollViewDelegate”用作 dll 接口 class“CrossApp::CATabBarController”的基
+                 d:\crossapp\crossapp\view\cascrollview.h(22) : 参见“CrossApp::CAScrollViewDelegate”的声明
+                 d:\crossapp\crossapp\controller\caviewcontroller.h(207) : 参见“CrossApp::CATabBarController”的声明
+     1>d:\crossapp\crossapp\controller\cadrawercontroller.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\view\caalertview.h(38): warning C4275: 非 dll 接口 class“CrossApp::CATableViewDataSource”用作 dll 接口 class“CrossApp::CAAlertView”的基
+                 d:\crossapp\crossapp\view\catableview.h(39) : 参见“CrossApp::CATableViewDataSource”的声明
+                 d:\crossapp\crossapp\view\caalertview.h(36) : 参见“CrossApp::CAAlertView”的声明
+     1>d:\crossapp\crossapp\view\caalertview.h(39): warning C4275: 非 dll 接口 class“CrossApp::CATableViewDelegate”用作 dll 接口 class“CrossApp::CAAlertView”的基
+                 d:\crossapp\crossapp\view\catableview.h(28) : 参见“CrossApp::CATableViewDelegate”的声明
+                 d:\crossapp\crossapp\view\caalertview.h(36) : 参见“CrossApp::CAAlertView”的声明
+     1>d:\crossapp\crossapp\view\capickerview.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\crossapp\view\capickerview.h(47): warning C4275: 非 dll 接口 class“CrossApp::CATableViewDataSource”用作 dll 接口 class“CrossApp::CAPickerView”的基
+                 d:\crossapp\crossapp\view\catableview.h(39) : 参见“CrossApp::CATableViewDataSource”的声明
+                 d:\crossapp\crossapp\view\capickerview.h(46) : 参见“CrossApp::CAPickerView”的声明
+     1>d:\crossapp\crossapp\cocoa\cacalendar.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\crossapp\projects\crossshop\classes\indexviewcontroller.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\crossapp\projects\crossshop\classes\indexviewcontroller.cpp(116): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\crossapp\projects\crossshop\classes\indexviewcontroller.cpp(122): warning C4018: “<”: 有符号/无符号不匹配
+       PreLinkEvent:
+         if not exist "D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\" mkdir "D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\CrossApp\projects\CrossShop\proj.win32\..\..\..\extensions\libwebsockets\win32\lib\*.*" "D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         E:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\CrossShop.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\ libExtensions.lib libCrossApp.lib libCocosDenshion.lib opengl32.lib glew32.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\CrossShop.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\CrossShop.lib" /MACHINE:X86 /SAFESEH Debug.win32\AddressListViewController.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\CartListViewController.obj
+         Debug.win32\CNString.obj
+         Debug.win32\IndexViewController.obj
+         Debug.win32\Pic.obj
+         Debug.win32\ProductCommentViewController.obj
+         Debug.win32\ProductParamViewController.obj
+         Debug.win32\ProductViewController.obj
+         Debug.win32\ProfileViewController.obj
+         Debug.win32\RootWindow.obj
+         Debug.win32\SearchViewController.obj
+         Debug.win32\ShopDB.obj
+         Debug.win32\SignInViewController.obj
+         Debug.win32\SignUpViewController.obj
+         Debug.win32\UI.obj
+         Debug.win32\main.obj
+         D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\libCocosDenshion.lib
+         D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\libCrossApp.lib
+         D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\libExtensions.lib
+         CrossShop.vcxproj -> D:\CrossApp\projects\CrossShop\proj.win32\Debug.win32\CrossShop.exe
+     1>已完成生成项目“D:\CrossApp\projects\CrossShop\proj.win32\CrossShop.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.14

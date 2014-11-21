@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\数据处理">
+      <UniqueIdentifier>{27a825b1-c700-4476-a5c9-2115eefaae2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\1、首页">
+      <UniqueIdentifier>{5edfe5d1-c945-4616-a791-ba5dffc4d886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\登录注册">
+      <UniqueIdentifier>{a1729ba8-7334-432f-b30b-772783536ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\UI控件">
+      <UniqueIdentifier>{432ae93d-9274-4682-95ee-2743f2c084be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\2、搜索页">
+      <UniqueIdentifier>{6fed5f7c-2287-40dd-b574-84e840b39e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\3、购物车页">
+      <UniqueIdentifier>{6123e002-ac79-4087-a9c6-dfaa7530fb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\4、个人中心页">
+      <UniqueIdentifier>{fead19d8-97f2-4919-9c53-265360ff2316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\4、个人中心页\4.1、收货地址相关页面">
+      <UniqueIdentifier>{37894fd3-c485-4ce5-a726-1c565d577478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\1、首页\1.1、商品相关页面">
+      <UniqueIdentifier>{9a9b3dec-6bed-475b-8094-c70c9b269efc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RootWindow.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CNString.cpp">
+      <Filter>Classes\数据处理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\IndexViewController.cpp">
+      <Filter>Classes\1、首页</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SignInViewController.cpp">
+      <Filter>Classes\登录注册</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SignUpViewController.cpp">
+      <Filter>Classes\登录注册</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI.cpp">
+      <Filter>Classes\UI控件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ProductViewController.cpp">
+      <Filter>Classes\1、首页\1.1、商品相关页面</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ProductCommentViewController.cpp">
+      <Filter>Classes\1、首页\1.1、商品相关页面</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ProductParamViewController.cpp">
+      <Filter>Classes\1、首页\1.1、商品相关页面</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShopDB.cpp">
+      <Filter>Classes\数据处理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Pic.cpp">
+      <Filter>Classes\数据处理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SearchViewController.cpp">
+      <Filter>Classes\2、搜索页</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CartListViewController.cpp">
+      <Filter>Classes\3、购物车页</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ProfileViewController.cpp">
+      <Filter>Classes\4、个人中心页</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AddressListViewController.cpp">
+      <Filter>Classes\4、个人中心页\4.1、收货地址相关页面</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RootWindow.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CNString.h">
+      <Filter>Classes\数据处理</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\IndexViewController.h">
+      <Filter>Classes\1、首页</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SignInViewController.h">
+      <Filter>Classes\登录注册</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SignUpViewController.h">
+      <Filter>Classes\登录注册</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI.h">
+      <Filter>Classes\UI控件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ProductViewController.h">
+      <Filter>Classes\1、首页\1.1、商品相关页面</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ProductCommentViewController.h">
+      <Filter>Classes\1、首页\1.1、商品相关页面</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ProductParamViewController.h">
+      <Filter>Classes\1、首页\1.1、商品相关页面</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopDB.h">
+      <Filter>Classes\数据处理</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Pic.h">
+      <Filter>Classes\数据处理</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MessageController.h">
+      <Filter>Classes\数据处理</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SearchViewController.h">
+      <Filter>Classes\2、搜索页</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Define.h">
+      <Filter>Classes\数据处理</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CartListViewController.h">
+      <Filter>Classes\3、购物车页</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ProfileViewController.h">
+      <Filter>Classes\4、个人中心页</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AddressListViewController.h">
+      <Filter>Classes\4、个人中心页\4.1、收货地址相关页面</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
